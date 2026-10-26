@@ -1,7 +1,5 @@
 on:
-    push:
-        branches:
-            - master
+    workflow_dispatch:
 
 permissions:
     contents: write
@@ -11,6 +9,7 @@ permissions:
 name: release
 jobs:
     release-please:
+        timeout-minutes: 30
         runs-on: ubuntu-latest
         steps:
             - uses: googleapis/release-please-action@v4
