@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [10.2.2](https://github.com/nodemailer/nodemailer/compare/v10.2.1...v10.2.2) (2026-10-26)
+
+
+### Bug Fixes
+
+* encode a Content-ID header as a message id ([#1904](https://github.com/nodemailer/nodemailer/issues/1904)) ([47f2b25](https://github.com/nodemailer/nodemailer/commit/47f2b252fccc8ec6a1a5700e12c1087ae3633e17))
+
 ## [10.2.1](https://github.com/nodemailer/nodemailer/compare/v10.2.0...v10.2.1) (2026-10-22)
 
 
